@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ Copyright (C) 2015 Nippon Telegraph and Telephone Corporation
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450" prefWidth="750" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="jp.co.ntt.oss.heapstats.plugin.sample.tabs.SampleTab2Controller">
+    <children>
+        <Button fx:id="tab2button" layoutX="340.0" layoutY="214.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="tab2label" alignment="CENTER" contentDisplay="CENTER" layoutX="285.0" layoutY="259.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="181.0" />
+    </children>
+</AnchorPane>

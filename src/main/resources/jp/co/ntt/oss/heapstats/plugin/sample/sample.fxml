@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ Copyright (C) 2015 Nippon Telegraph and Telephone Corporation
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="Log" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" fx:controller="jp.co.ntt.oss.heapstats.plugin.sample.SampleMainController">
+    <children>
+        <TabPane layoutX="14.0" layoutY="14.0" prefHeight="500.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+            <tabs>
+                <Tab text="%tab.tab1">
+                    <content>
+                        <fx:include fx:id="tab1" source="tabs/tab1.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="%tab.tab2">
+                    <content>
+                        <fx:include fx:id="tab2" source="tabs/tab2.fxml" />
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
