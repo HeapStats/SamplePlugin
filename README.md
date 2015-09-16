@@ -1,6 +1,13 @@
 # SamplePlugin
 Sample plugin for HeapStatsFXAnalyzer to use as template project.
 
+## Pre-Requirements
+You have to install HeapStatsFXAnalzer to maven local repository.
+```
+$ cd /path/to/HeapStatsFXAnalyzer
+$ mvn install
+```
+
 ## Build
 
  1. mvn package
