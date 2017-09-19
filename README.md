@@ -1,5 +1,5 @@
 # SamplePlugin
-Sample plugin for HeapStatsFXAnalyzer to use as template project.
+Sample plugin for HeapStats Analyzer to use as template project.
 
 ## Build
 
