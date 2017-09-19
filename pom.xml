@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
- Copyright (C) 2015 KUBOTA Yuji
+ Copyright (C) 2015-2017 KUBOTA Yuji
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -70,8 +70,8 @@
     <dependencies>
         <dependency>
             <groupId>jp.co.ntt.oss.heapstats</groupId>
-            <artifactId>heapstats-analyzer</artifactId>
-            <version>2.0</version>
+            <artifactId>heapstats-plugin-api</artifactId>
+            <version>2.1-m2</version>
         </dependency>
     </dependencies>
 </project>
