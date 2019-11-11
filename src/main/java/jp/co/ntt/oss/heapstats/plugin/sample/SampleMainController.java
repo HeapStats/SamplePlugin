@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Nippon Telegraph and Telephone Corporation
+ * Copyright (C) 2015-2019 Nippon Telegraph and Telephone Corporation
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -25,7 +25,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.AnchorPane;
-import jp.co.ntt.oss.heapstats.plugin.PluginController;
+import jp.co.ntt.oss.heapstats.api.plugin.PluginController;
 import jp.co.ntt.oss.heapstats.plugin.sample.tabs.SampleTab1Controller;
 import jp.co.ntt.oss.heapstats.plugin.sample.tabs.SampleTab2Controller;
 
