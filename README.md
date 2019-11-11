@@ -1,4 +1,7 @@
+**If you want to create plugin for HeapStats Analyzer v2.1 or earlier, please see [for2.2](https://github.com/HeapStats/SamplePlugin/tree/for2.2) branch.**
+
 # SamplePlugin
+
 Sample plugin for HeapStats Analyzer to use as template project.
 
 ## Build
